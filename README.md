@@ -137,7 +137,8 @@ cacheSolve <- function(x, ...) {
         inv
 }
 
-## Sample output : for testing purpose
+Sample output : for testing purpose
+```
 > source("ProgrammingAssignment2-master/cachematrix.R")
 > x = matrix(rnorm(9),3,3)
 > x <- x*t(x)
@@ -158,3 +159,4 @@ cacheSolve <- function(x, ...) {
 [1,] -17.012738  2.9315031  5.0566416
 [2,]   2.931503 -0.5135176 -0.5173627
 [3,]   5.056642 -0.5173627 -1.5035512
+```
